@@ -8,9 +8,9 @@ const Navbar = () => {
       <header className="py-4 px-20 flex justify-between gap-10 text-gray-300 items-center">
         <div className="text-4xl">LOGO</div>
         <div className="flex space-x-40">
-          <NavLink className="hover:text-white hover:shadow" to="/">Ana Sayfa</NavLink>
-          <NavLink className="hover:text-white" to="projects">Projelerim</NavLink>
-          <NavLink className="hover:text-white" to="/about">Hakkımda</NavLink>
+          <NavLink className="hover:text-white hover:shadow" to="/">Home</NavLink>
+          <NavLink className="hover:text-white" to="projects">Projects</NavLink>
+          <NavLink className="hover:text-white" to="/about">About Me</NavLink>
           <NavLink className="hover:text-white" to="/blog">Blog</NavLink>
         </div>
         <div>

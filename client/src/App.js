@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Header/Navbar";
 function App() {
   return (
-    <div className="bg-gray-900 h-screen">
+    <div className="bg-gray-900 h-full">
       <BrowserRouter>
         <Navbar />
         <Routes>
