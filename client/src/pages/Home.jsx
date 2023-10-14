@@ -3,7 +3,7 @@ import Welcome from "../components/HomePage/Welcome";
 import Competencies from "../components/HomePage/Competencies";
 const Home = () => {
   return (
-    <div>
+    <div className="mb-8">
       <Welcome />
       <Competencies />
     </div>
